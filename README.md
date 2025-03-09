@@ -1,6 +1,6 @@
 # IP-Address-to-Domain-Name (Reverse DNS Lookup)
 
-Reverse DNS (Domain Name System) lookup is the process of translating an IP address back to its associated domain name. While standard ("forward") DNS resolves domain names (e.g., google.com) to IP addresses (e.g., 172.217.14.206), reverse DNS does the opposite. It answers the question: "Which domain name is associated with this IP address?"
+Reverse DNS (Domain Name System) lookup is the process of [translating an IP address back to its associated domain name](https://vividorigins.com/mapping-ip-address-to-domain-name/). While standard ("forward") DNS resolves domain names (e.g., google.com) to IP addresses (e.g., 172.217.14.206), reverse DNS does the opposite. It answers the question: "Which domain name is associated with this IP address?"
 
 **How Does It Work?**
 
@@ -34,14 +34,14 @@ Reverse DNS (Domain Name System) lookup is the process of translating an IP addr
 
 **Why is Reverse DNS Important?**
 
-**Email Validation:**
+I. **Email Validation:**
 Many email servers reject messages from IPs without a valid PTR record to combat spam.
 
-**Logging & Troubleshooting:**
+II. **Logging & Troubleshooting:**
 Makes network logs readable by displaying domain names instead of raw IPs.
 
-**Security:**
+III. **Security:**
 Used to verify if a server’s IP matches its claimed domain name (e.g., SSL certificate checks).
 
-**Network Tools:**
+IV. **Network Tools:**
 Tools like traceroute or ping often use reverse DNS to display domain names.
